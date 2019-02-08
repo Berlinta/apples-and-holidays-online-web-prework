@@ -42,8 +42,8 @@ def all_supplies_in_holidays(holiday_supplies)
     data.each do |holiday, supply|
       puts "  #{str_holiday}: #{supply.join(", ")}"
     end
-    all_supplies_in_holidays(holiday_supplies)
-  end 
+  end
+  all_supplies_in_holidays(holiday_supplies) 
 end
 
 
