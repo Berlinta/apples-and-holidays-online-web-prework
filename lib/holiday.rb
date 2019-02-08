@@ -40,7 +40,7 @@ def all_supplies(holiday_supplies)
   holiday_supplies.each do |season, data|
     puts "#{season.to_s.capitalize!}:"
     data.each do |holiday, supply|
-      # holiday == :fourth_of_july
+     # holiday == :fourth_of_july
       # we took the holiday key and converted a string
       # str_holiday == fourth_of_july
       # we took that converted string, and split it to an array with the elements divided by the _ (which removes the _)
@@ -53,7 +53,7 @@ def all_supplies(holiday_supplies)
       # supplies == ["BBQ", "Fireworks"]
       # we joined it together converting the array to a string dividing each element by a , and a space
       # supplies == "BBQ, Fireworks"
-      # "  Fourth Of July: BBQ, Fireworks"
+      # "  Fourth Of July: BBQ, Fireworks" 
       puts "  #{str_holiday}: #{supply.join(", ")}"
     end
   end 
