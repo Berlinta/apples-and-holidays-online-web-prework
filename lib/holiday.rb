@@ -42,10 +42,11 @@ def all_supplies_in_holidays(holiday_supplies)
     data.each do |holiday, supply|
       puts "  #{str_holiday}: #{supply.join(", ")}"
     end
+    
   end 
 end
 
-all_supplies_in_holidays(holiday_supplies)
+
 
 def all_holidays_with_bbq(holiday_hash)
   # return an array of holiday names (as symbols) where supply lists
